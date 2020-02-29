@@ -1,0 +1,32 @@
+.mainHeadline {
+    color: darkgreen;
+    font-family: Georgia;
+    text-align: center;
+}
+
+.subHeadline {
+    font-family: Georgia;
+    text-align: center;
+}
+
+p {
+    line-height: 25px;
+}
+
+.bottomOfPage > a {
+    text-decoration: none;
+
+}
+
+.bottomOfPage > a:hover{
+    text-decoration: underline;
+}
+
+.bottomOfPage > p {
+    text-transform: uppercase;
+}
+
+#headlineImage {
+    float: left;
+    padding: 20px;
+}
