@@ -1,0 +1,54 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header {
+    background-image: url("https://image.shutterstock.com/image-vector/vector-taco-isolated-mexican-food-600w-304512293.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    width: 0 auto;
+    height: 400px;
+
+}
+#headerText {
+    text-align: center;
+    font-size: 65px;
+    color: burlywood;
+}
+
+.navbar {
+    background-color: tan;
+    padding: 10px;
+    text-align: center;
+}
+
+.intro {
+    position: relative;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+.crunchy {
+    position: relative;
+    margin: 10px;
+    float: left;
+    padding-right: 20px;
+}
+
+.classic {
+    position: relative;
+    margin: 10px;
+    float: right;
+}
+
+
+
+footer {
+    position:fixed;
+    text-align: center;
+    left:0px;
+    bottom:0px;
+    height:15x;
+    width:100%;
+    background: tan;
+}
