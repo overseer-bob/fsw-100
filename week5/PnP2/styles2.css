@@ -1,0 +1,113 @@
+* {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.gridContainer {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 100);
+}
+/*Phone Display*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    header {
+        grid-column: 1 / 5;
+        background-color: #808080;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    #sidebar {
+        grid-column: 1 / 5;
+        background-color: #484848;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    #content {
+        grid-column: 1 / 5;
+        background-color: #484848;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    #sidebar2 {
+        grid-column: 1 / 5;
+        background-color: #C8C8C8;
+        border-radius: 10px;
+        padding: 15px; 
+        color: #484848;
+    }
+    footer {
+        grid-column: 1 / 5;
+        background-color: #808080;
+        border-radius: 10px;
+        padding: 15px;
+    }
+}
+/*Tablet Display*/
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    header {
+        grid-column: 1 / 5;
+        background-color: #808080;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    #sidebar {
+        grid-column: 1 / 2;
+        background-color: #484848;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    #content {
+        grid-column: 2 / 5;
+        background-color: #484848;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    #sidebar2 {
+        grid-column: 1 / 5;
+        background-color: #C8C8C8;
+        border-radius: 10px;
+        padding: 15px; 
+        color: #484848;
+    }
+    footer {
+        grid-column: 1 / 5;
+        background-color: #808080;
+        border-radius: 10px;
+        padding: 15px;
+    }
+}
+/*Laptop Display*/
+@media only screen and (min-width: 1025px) {
+    header {
+        grid-column: 1 / 5;
+        background-color: #808080;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    #sidebar {
+        grid-column: 1 / 2;
+        background-color: #484848;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    #content {
+        grid-column: 2 / 4;
+        background-color: #484848;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    #sidebar2 {
+        grid-column: 4 / 5;
+        background-color: #C8C8C8;
+        border-radius: 10px;
+        padding: 15px; 
+        color: #484848;
+    }
+    footer {
+        grid-column: 1 / 5;
+        background-color: #808080;
+        border-radius: 10px;
+        padding: 15px;
+    }
+}
