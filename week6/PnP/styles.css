@@ -44,8 +44,6 @@
     transition: box-shadow 2s linear, opacity 1s linear;
 }
 #box4:hover {
-    width: 75px;
-    height: 75px;
     box-shadow: 10px 5px lightgreen;
     opacity: 85%;
 }
